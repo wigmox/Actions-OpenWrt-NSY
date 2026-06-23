@@ -1,0 +1,15 @@
+#!/bin/sh
+
+[ "$ACTION" = "add" ] || exit 0
+
+# 当 wan 口被系统注册时触发
+if [ "$INTERFACE" = "wan" ]; then
+    # 尝试使用新版内核 (6.12+) 的语法将 wan 绑定到 eth1
+    ip link set dev wan type dsa conduit eth1 2>/dev/null
+    
+    # 如果系统是 6.6 或 iproute2 工具较旧，回退使用 master 语法
+    if [ $? -ne 0 ]; then
+        ip link set wan master eth1 2>/dev/null
+    fi
+    logger -t dsa-conduit "Bound WAN port to eth1 (SGMII)"
+fi
