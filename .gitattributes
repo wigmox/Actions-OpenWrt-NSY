@@ -1,5 +1,0 @@
-*.bin !text !filter !merge !diff
-*.dat !text !filter !merge !diff
-*.xls !text !filter !merge !diff
-*.bz2 !text !filter !merge !diff
-*.po !text !filter !merge !diff
