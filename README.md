@@ -1,0 +1,52 @@
+<div align="center">
+<img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/openwrt.png"/>
+<h1>OpenWrt — NSY-G68-PLUS固件云编译</h1>
+
+<img src="https://img.shields.io/github/downloads/haiibo/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
+<img src="https://img.shields.io/github/stars/haiibo/OpenWrt.svg?style=for-the-badge&color=orange"/>
+<img src="https://img.shields.io/github/forks/haiibo/OpenWrt.svg?style=for-the-badge&color=ff69b4"/>
+<img src="https://img.shields.io/github/license/haiibo/OpenWrt.svg?style=for-the-badge&color=blueviolet"/>
+
+[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-项目说明-FFFFFF.svg)](#项目说明-) [![](https://img.shields.io/badge/-固件特色-FFFFFF.svg)](#固件特色-) [![](https://img.shields.io/badge/-固件下载-FFFFFF.svg)](#固件下载-) [![](https://img.shields.io/badge/-近期更新-FFFFFF.svg)](#近期更新-) [![](https://img.shields.io/badge/-插件预览-FFFFFF.svg)](#插件预览-) [![](https://img.shields.io/badge/-定制固件-FFFFFF.svg)](#定制固件-) [![](https://img.shields.io/badge/-特别提示-FFFFFF.svg)](#特别提示-) [![](https://img.shields.io/badge/-鸣谢-FFFFFF.svg)](#鸣谢-)
+</div>
+
+
+## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
+- 来自wigmox/Actions-OpenWrt
+- 固件构成：[![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt)
+- 适配nsy-g68-plus
+- 项目使用 Github Actions 拉取Openwrt 官方源码仓库进行云编译
+- 固件默认管理地址：`192.168.1.1` 默认用户：`root` 默认密码：`password`
+
+
+
+## 固件特色 [![](https://img.shields.io/badge/-本项目固件特色-FFFFFF.svg)](#固件特色-)
+1. 原汁原味官方openwrt系统，除适配外没有任何改造
+
+## 固件名称说明
+- sw  表示 swconfig交换机
+- dsa 表示 dsa交换机
+- op  表示 openwrt开源wifi驱动
+- mt  表示 mediatek闭源wifi驱动
+- no  表示 无wifi
+
+## 特别提示 [![](https://img.shields.io/badge/-个人免责声明-FFFFFF.svg)](#特别提示-)
+
+- **因精力有限不提供任何技术支持和教程等相关问题解答，不保证完全无 BUG！**
+
+- **本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任！**
+
+- **本人github中的任何资源禁止用于任何商业用途和非法用途，请务必严格遵守国家互联网使用相关法律规定！**
+
+
+## 鸣谢 [![](https://img.shields.io/badge/-跪谢各大佬-FFFFFF.svg)](#鸣谢-)
+| [ImmortalWrt](https://github.com/immortalwrt) | [coolsnowwolf](https://github.com/coolsnowwolf) | [P3TERX](https://github.com/P3TERX) | [Flippy](https://github.com/unifreq) | [Haiibo](https://github.com/haiibo) |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| <img width="100" src="https://avatars.githubusercontent.com/u/53193414"/> | <img width="100" src="https://avatars.githubusercontent.com/u/31687149"/> | <img width="100" src="https://avatars.githubusercontent.com/u/25927179"/> | <img width="100" src="https://avatars.githubusercontent.com/u/39355261"/> | <img width="100" src="https://avatars.githubusercontent.com/u/85640068"/> |
+| [Ophub](https://github.com/ophub) | [SuLingGG](https://github.com/SuLingGG) | [QiuSimons](https://github.com/QiuSimons) | [IvanSolis1989](https://github.com/IvanSolis1989) |
+| <img width="100" src="https://avatars.githubusercontent.com/u/68696949"/> | <img width="100" src="https://avatars.githubusercontent.com/u/22287562"/> | <img width="100" src="https://avatars.githubusercontent.com/u/45143996"/> | <img width="100" src="https://avatars.githubusercontent.com/u/44228691"/> |
+
+
+<a href="#readme">
+<img src="https://img.shields.io/badge/-返回顶部-FFFFFF.svg" title="返回顶部" align="right"/>
+</a>
