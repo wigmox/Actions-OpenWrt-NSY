@@ -292,8 +292,8 @@ jobs:
         # 下载 clash core
         # $GITHUB_WORKSPACE/scripts/preset-clash-core.sh $CLASH_KERNEL
         #copy key
-        echo -e "$SIGN_KEY" >> $OPENWRT_PATH/private-key.pem
-        echo -e "$SIGN_PUB_KEY" >> $OPENWRT_PATH/public-key.pem
+        #echo -e "$SIGN_KEY" >> $OPENWRT_PATH/private-key.pem
+        #echo -e "$SIGN_PUB_KEY" >> $OPENWRT_PATH/public-key.pem
         # 清除缓存目录,否则新增的mk文件不生效
         rm -rf $OPENWRT_PATH/tmp
 
